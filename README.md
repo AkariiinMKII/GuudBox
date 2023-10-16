@@ -6,37 +6,43 @@ This device uses GP2040-CE firmware with custom key maps and layouts, here's rel
 
 ## Hardwares
 
-__Attention: You need screwdrivers and iron to build this device!__
+__Screwdrivers and soldering iron are necessary to build this device!__
 
-__Attention: You need screwdrivers and iron to build this device!__
+__Screwdrivers and soldering iron are necessary to build this device!__
 
-__Attention: You need screwdrivers and iron to build this device!__
+__Screwdrivers and soldering iron are necessary to build this device!__
 
 ### Standard parts
 
-_Parts you need to purchase, all of these should be available in China Mainland. __Make sure you can access these parts (or compatible ones) before building!___
+_Parts you need to purchase. All of these should be available in China Mainland._
 
-| Parts                                     | Quantity | Shopping links for reference                                      |
-| ----------------------------------------- | -------- | ----------------------------------------------------------------- |
-| Waveshare RP2040-Zero                     | 1        |                                                                   |
-| Gateron low profile switches v2.0         | 18       |                                                                   |
-| Gateron low profile hotswap connectors    | 18       |                                                                   |
-| 21 mm round MX switche compatible keycaps | 12       | [PUNK WORKSHOP](https://item.taobao.com/item.htm?id=684778888971) |
-| 26 mm round MX switche compatible keycaps | 1        | [PUNK WORKSHOP](https://item.taobao.com/item.htm?id=684778888971) |
-| Standard MX switche compatible keycaps    | 6        | [DEADLINE DOYS](https://item.taobao.com/item.htm?id=705145796401) |
-| 6x6x10 mm flip switches                   | 2        | [LCSC](https://item.szlcsc.com/580446.html)                       |
-| M3*13 locking screws                      | 6        | [Taobao](https://detail.tmall.com/item.htm?id=714800474141)       |
-| M3*5 locking screws                       | 5        | [Taobao](https://detail.tmall.com/item.htm?id=714800474141)       |
-| 13x4x2.5 mm round-corner foot patches     | 6        | [Taobao](https://item.taobao.com/item.htm?id=579251575258)        |
+__Make sure you can get these parts (or compatible ones) before building!__
+
+| Parts                                   | Quantity | Shopping links for reference                                      |
+| --------------------------------------- | -------- | ----------------------------------------------------------------- |
+| Waveshare RP2040-Zero                   | 1        |                                                                   |
+| Gateron low profile switches v2.0       | 18       |                                                                   |
+| Gateron low profile hotswap connectors  | 18       |                                                                   |
+| 21mm round MX switch compatible keycaps | 12       | [PUNK WORKSHOP](https://item.taobao.com/item.htm?id=684778888971) |
+| 26mm round MX switch compatible keycaps | 1        | [PUNK WORKSHOP](https://item.taobao.com/item.htm?id=684778888971) |
+| Standard MX switch keycaps              | 6        | [DEADLINE DOYS](https://item.taobao.com/item.htm?id=705145796401) |
+| 6x6x10mm flip switches                  | 2        | [LCSC](https://item.szlcsc.com/580446.html)                       |
+| M3*13 locking screws                    | 6        | [Taobao](https://detail.tmall.com/item.htm?id=714800474141)       |
+| M3*5 locking screws                     | 5        | [Taobao](https://detail.tmall.com/item.htm?id=714800474141)       |
+| 13x4x2.5mm round-corner foot patches    | 6        | [Taobao](https://item.taobao.com/item.htm?id=579251575258)        |
 
 ### Custom parts
 
 | Parts                          | Quantity | Related files                                                                                                         | Remarks       |
 | ------------------------------ | -------- | --------------------------------------------------------------------------------------------------------------------- | ------------- |
-| 1.6 mm controller PCB          | 1        | [Gerber_GuudBox.zip](PCB/Gerber_GuudBox.zip)                                                                          |               |
+| Controller PCB                 | 1        | [Gerber_GuudBox.zip](PCB/Gerber_GuudBox.zip)                                                                          | 1.6mm thick   |
 | CNC / 3D printed bottom case   | 1        | [Bottom Case.STEP (for CNC)](Case/Bottom%20Case.STEP) / [Bottom Case.STL (for 3D printing)](Case/Bottom%20Case.STL)   |               |
-| CNC / laser cutted cover plate | 1        | [Cover Plate.STEP (for CNC)](Case/Cover%20Plate.STEP) / [Cover Plate.dxf (for laser cutting)](Case/Cover%20Plate.dxf) |               |
+| CNC / laser cutted cover plate | 1        | [Cover Plate.STEP (for CNC)](Case/Cover%20Plate.STEP) / [Cover Plate.dxf (for laser cutting)](Case/Cover%20Plate.dxf) | 3mm thick     |
 | CNC / 3D printed wrist rest    | 1        | [Wrist Rest.STEP (for CNC)](Case/Wrist%20Rest.STEP) / [Wrist Rest.STL (for 3D printing)](Case/Wrist%20Rest.STL)       | Optional part |
+
+![MCU Soldering](.doc/MCU%20Soldering.png)
+
+_The RP2040-Zero MCU board should be soldered on __bottom side__ of the controller PCB with __front side up__. Make the position as accurate as possible to avoid conflicts with case._
 
 ### Customizations
 
@@ -57,7 +63,7 @@ Firmwares are modified and compiled in [AkariiinMKII/GP2040-CE](https://github.c
 
 ### Key Maps
 
-_Default key map in firmware, you can change it in [__Web Configurator > Configuration > Pin Mapping__](https://gp2040-ce.info/#/web-configurator?id=pin-mapping)_
+_Default key map in firmware, you can change it in [Web Configurator > Configuration > Pin Mapping](https://gp2040-ce.info/#/web-configurator?id=pin-mapping)._
 
 ![Key Map](.doc/Key%20Map.png)
 
@@ -81,11 +87,15 @@ _Default key map in firmware, you can change it in [__Web Configurator > Configu
 | 16       | 7        | B2         | B      | A       | Circle       | Circle       | 3            | K2     |
 | 17       | 5        | R2         | RT     | ZR      | R2           | R2           | 8            | K3     |
 | 18       | 3        | L2         | LT     | ZL      | L2           | L2           | 7            | K4     |
-| 19       | 0        | Fn         | Fn     | Fn      | Fn           | Fn           | Fn           | Fn     |
-| 20       | 1        | Turbo      | Turbo  | Turbo   | Turbo        | Turbo        | Turbo        | Turbo  |
+| 19*      | 0        | Fn         | Fn     | Fn      | Fn           | Fn           | Fn           | Fn     |
+| 20**     | 1        | Turbo      | Turbo  | Turbo   | Turbo        | Turbo        | Turbo        | Turbo  |
+
+_*: Disabled by default, enable the function in [Web Configurator > Settings > Hotkey Settings](https://gp2040-ce.info/#/web-configurator?id=hotkey-settings) before using._
+
+_**: Disabled by default, enable the function in [Web Configurator > Configuration > Add-Ons Configuration > Turbo](https://gp2040-ce.info/#/add-ons/turbo) before using._
 
 ### Configurations
 
 Hold `S2` (position 6 in default key map) when plugging your controller into a PC. Then visit <http://192.168.7.1> in a web browser to access [GP2040-CE Web Configurator](https://gp2040-ce.info/#/web-configurator).
 
-__Visit [GP2040-CE home page](https://gp2040-ce.info/#/web-configurator) for full documentation.__
+Visit [GP2040-CE home page](https://gp2040-ce.info/#/web-configurator) for full documentation.
