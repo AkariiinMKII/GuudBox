@@ -1,15 +1,61 @@
 # GuudBox
 
-_A custom hitbox for [GP2040-CE](https://github.com/OpenStickCommunity/GP2040-CE), built with Gateron low profile switches._
+This device uses GP2040-CE firmware with custom key maps and layouts, here's related links you may need:
 
-## Firmware Installation
+[GP2040-CE home page](https://gp2040-ce.info/#/web-configurator) | [GP2040-CE GitHub page](https://github.com/OpenStickCommunity/GP2040-CE)
+
+## Hardwares
+
+__Attention: You need screwdrivers and iron to build this device!__
+
+__Attention: You need screwdrivers and iron to build this device!__
+
+__Attention: You need screwdrivers and iron to build this device!__
+
+### Standard parts
+
+_Parts you need to purchase, all of these should be available in China Mainland. __Make sure you can access these parts (or compatible ones) before building!___
+
+| Parts                                     | Quantity | Shopping links for reference                                      |
+| ----------------------------------------- | -------- | ----------------------------------------------------------------- |
+| Waveshare RP2040-Zero                     | 1        |                                                                   |
+| Gateron low profile switches v2.0         | 18       |                                                                   |
+| Gateron low profile hotswap connectors    | 18       |                                                                   |
+| 21 mm round MX switche compatible keycaps | 12       | [PUNK WORKSHOP](https://item.taobao.com/item.htm?id=684778888971) |
+| 26 mm round MX switche compatible keycaps | 1        | [PUNK WORKSHOP](https://item.taobao.com/item.htm?id=684778888971) |
+| Standard MX switche compatible keycaps    | 6        | [DEADLINE DOYS](https://item.taobao.com/item.htm?id=705145796401) |
+| 6x6x10 mm flip switches                   | 2        | [LCSC](https://item.szlcsc.com/580446.html)                       |
+| M3*13 locking screws                      | 6        | [Taobao](https://detail.tmall.com/item.htm?id=714800474141)       |
+| M3*5 locking screws                       | 5        | [Taobao](https://detail.tmall.com/item.htm?id=714800474141)       |
+| 13x4x2.5 mm round-corner foot patches     | 6        | [Taobao](https://item.taobao.com/item.htm?id=579251575258)        |
+
+### Custom parts
+
+| Parts                          | Quantity | Related files                                                                                                         | Remarks       |
+| ------------------------------ | -------- | --------------------------------------------------------------------------------------------------------------------- | ------------- |
+| 1.6 mm controller PCB          | 1        | [Gerber_GuudBox.zip](PCB/Gerber_GuudBox.zip)                                                                          |               |
+| CNC / 3D printed bottom case   | 1        | [Bottom Case.STEP (for CNC)](Case/Bottom%20Case.STEP) / [Bottom Case.STL (for 3D printing)](Case/Bottom%20Case.STL)   |               |
+| CNC / laser cutted cover plate | 1        | [Cover Plate.STEP (for CNC)](Case/Cover%20Plate.STEP) / [Cover Plate.dxf (for laser cutting)](Case/Cover%20Plate.dxf) |               |
+| CNC / 3D printed wrist rest    | 1        | [Wrist Rest.STEP (for CNC)](Case/Wrist%20Rest.STEP) / [Wrist Rest.STL (for 3D printing)](Case/Wrist%20Rest.STL)       | Optional part |
+
+### Customizations
+
+Use files in [Misc](/Misc).
+
+[EasyEDA Pro](https://pro.easyeda.com/editor) is needed to edit `.epro` file.
+
+## Softwares
+
+Firmwares are modified and compiled in [AkariiinMKII/GP2040-CE](https://github.com/AkariiinMKII/GP2040-CE).
+
+### Firmware Installation
 
 1. Download the firmware (.uf2 file) in [release page](https://github.com/AkariiinMKII/GuudBox/releases).
 2. Hold `BOOT` buttom on MCU board when plugging your controller into a PC. A new removable drive named `RPI-RP2` should appear in your file explorer.
 3. Drag and drop the firmware into the removable drive.
 4. Wait for the device to automatically disconnect.
 
-## Key Map
+### Key Maps
 
 _Default key map in firmware, you can change it in [__Web Configurator > Configuration > Pin Mapping__](https://gp2040-ce.info/#/web-configurator?id=pin-mapping)_
 
@@ -38,7 +84,7 @@ _Default key map in firmware, you can change it in [__Web Configurator > Configu
 | 19       | 0        | Fn         | Fn     | Fn      | Fn           | Fn           | Fn           | Fn     |
 | 20       | 1        | Turbo      | Turbo  | Turbo   | Turbo        | Turbo        | Turbo        | Turbo  |
 
-## Custom settings
+### Configurations
 
 Hold `S2` (position 6 in default key map) when plugging your controller into a PC. Then visit <http://192.168.7.1> in a web browser to access [GP2040-CE Web Configurator](https://gp2040-ce.info/#/web-configurator).
 
