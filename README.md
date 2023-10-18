@@ -40,7 +40,7 @@ __Make sure you can get these parts (or compatible ones) before building!__
 | CNC / laser cutted cover plate | 1        | [Cover Plate.STEP (for CNC)](Case/Cover%20Plate.STEP) / [Cover Plate.dxf (for laser cutting)](Case/Cover%20Plate.dxf) | 3mm thick     |
 | CNC / 3D printed wrist rest    | 1        | [Wrist Rest.STEP (for CNC)](Case/Wrist%20Rest.STEP) / [Wrist Rest.STL (for 3D printing)](Case/Wrist%20Rest.STL)       | Optional part |
 
-![MCU Soldering](.doc/MCU%20Soldering.png)
+![MCU Soldering](.doc/mcu_soldering.png)
 
 _The RP2040-Zero MCU board should be soldered on __bottom side__ of the controller PCB with __front side up__. Make the position as accurate as possible to avoid conflicts with case._
 
@@ -65,7 +65,7 @@ Firmwares are modified and compiled in [AkariiinMKII/GP2040-CE](https://github.c
 
 _Default key map in firmware, you can change it in [Web Configurator > Configuration > Pin Mapping](https://gp2040-ce.info/#/web-configurator?id=pin-mapping)._
 
-![Key Map](.doc/Key%20Map.png)
+![Key Map](.doc/key_map.png)
 
 | Position | GPIO Pin | GP2040-CE  | XInput | Switch  | PS4          | PS3          | DirectInput  | Arcade |
 | -------- | -------- | ---------- | ------ | ------- | ------------ | ------------ | ------------ | ------ |
