@@ -1,8 +1,12 @@
 # GuudBox
 
-This device uses GP2040-CE firmware with custom key maps and layouts, here's related links you may need:
+GuudBox uses GP2040-CE firmware with custom key maps and layouts, here's related links you may need:
 
-[GP2040-CE home page](https://gp2040-ce.info/#/web-configurator) | [GP2040-CE GitHub page](https://github.com/OpenStickCommunity/GP2040-CE)
+[GP2040-CE GitHub page](https://github.com/OpenStickCommunity/GP2040-CE) | [GP2040-CE documentation](https://gp2040-ce.info)
+
+![Sample](.doc/sample_1.jpg)
+![Sample](.doc/sample_2.jpg)
+![Sample](.doc/sample_3.jpg)
 
 ## Hardwares
 
@@ -23,13 +27,13 @@ __Make sure you can get these parts (or compatible ones) before building!__
 | Waveshare RP2040-Zero                   | 1        |                                                                   |
 | Gateron low profile switches v2.0       | 18       |                                                                   |
 | Gateron low profile hotswap connectors  | 18       |                                                                   |
-| 21mm round MX switch compatible keycaps | 12       | [PUNK WORKSHOP](https://item.taobao.com/item.htm?id=684778888971) |
-| 26mm round MX switch compatible keycaps | 1        | [PUNK WORKSHOP](https://item.taobao.com/item.htm?id=684778888971) |
+| 21mm MX switch compatible round keycaps | 12       | [PUNK WORKSHOP](https://item.taobao.com/item.htm?id=684778888971) |
+| 26mm MX switch compatible round keycaps | 1        | [PUNK WORKSHOP](https://item.taobao.com/item.htm?id=684778888971) |
 | Standard MX switch keycaps              | 6        | [DEADLINE DOYS](https://item.taobao.com/item.htm?id=705145796401) |
-| 6x6x10mm flip switches                  | 2        | [LCSC](https://item.szlcsc.com/580446.html)                       |
+| 6x6x10mm push button switches           | 2        | [LCSC](https://item.szlcsc.com/580446.html)                       |
 | M3*13 locking screws                    | 6        | [Taobao](https://detail.tmall.com/item.htm?id=714800474141)       |
 | M3*5 locking screws                     | 5        | [Taobao](https://detail.tmall.com/item.htm?id=714800474141)       |
-| 13x4x2.5mm round-corner foot patches    | 6        | [Taobao](https://item.taobao.com/item.htm?id=579251575258)        |
+| 13x4x2.5mm round-corner foot pads       | 6        | [Taobao](https://item.taobao.com/item.htm?id=579251575258)        |
 
 ### Custom parts
 
@@ -96,6 +100,6 @@ _**: Disabled by default, enable the function in [Web Configurator > Configurati
 
 ### Configurations
 
-Hold `S2` (position 6 in default key map) when plugging your controller into a PC. Then visit <http://192.168.7.1> in a web browser to access [GP2040-CE Web Configurator](https://gp2040-ce.info/#/web-configurator).
+Hold `S2` (position 6 in default key map) when plugging your controller into a PC, and then visit <http://192.168.7.1> in a web browser to access the Web Configurator.
 
-Visit [GP2040-CE home page](https://gp2040-ce.info/#/web-configurator) for full documentation.
+It is strongly recommended to read the [documentation](https://gp2040-ce.info/#/web-configurator) before using the configurator.
