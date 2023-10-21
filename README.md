@@ -33,16 +33,20 @@ __Make sure you can get these parts (or compatible ones) before building!__
 | 6x6x10mm push button switches           | 2        | [LCSC](https://item.szlcsc.com/580446.html)                       |
 | M3*13 locking screws                    | 6        | [Taobao](https://detail.tmall.com/item.htm?id=714800474141)       |
 | M3*5 locking screws                     | 5        | [Taobao](https://detail.tmall.com/item.htm?id=714800474141)       |
-| 13x4x2.5mm round-corner foot pads       | 6        | [Taobao](https://item.taobao.com/item.htm?id=579251575258)        |
+| 13x4mm round head silicone foot pads*   | 6        | [Taobao](https://item.taobao.com/item.htm?id=579251575258)        |
+
+_*: Thickness should be greater than 0.5mm._
 
 ### Custom parts
 
-| Parts                          | Quantity | Related files                                                                                                         | Remarks       |
-| ------------------------------ | -------- | --------------------------------------------------------------------------------------------------------------------- | ------------- |
-| Controller PCB                 | 1        | [Gerber_GuudBox.zip](PCB/Gerber_GuudBox.zip)                                                                          | 1.6mm thick   |
-| CNC / 3D printed bottom case   | 1        | [Bottom Case.STEP (for CNC)](Case/Bottom%20Case.STEP) / [Bottom Case.STL (for 3D printing)](Case/Bottom%20Case.STL)   |               |
-| CNC / laser cutted cover plate | 1        | [Cover Plate.STEP (for CNC)](Case/Cover%20Plate.STEP) / [Cover Plate.dxf (for laser cutting)](Case/Cover%20Plate.dxf) | 3mm thick     |
-| CNC / 3D printed wrist rest    | 1        | [Wrist Rest.STEP (for CNC)](Case/Wrist%20Rest.STEP) / [Wrist Rest.STL (for 3D printing)](Case/Wrist%20Rest.STL)       | Optional part |
+| Parts                           | Quantity | Related files                                                                                                         | Remarks       |
+| ------------------------------- | -------- | --------------------------------------------------------------------------------------------------------------------- | ------------- |
+| Controller PCB                  | 1        | [Gerber_GuudBox.zip](PCB/Gerber_GuudBox.zip)                                                                          | 1.6mm thick   |
+| CNC / 3D printed bottom case    | 1        | [Bottom Case.STEP (for CNC)](Case/Bottom%20Case.STEP) / [Bottom Case.STL (for 3D printing)](Case/Bottom%20Case.STL)   |               |
+| CNC / laser cutted cover plate* | 1        | [Cover Plate.STEP (for CNC)](Case/Cover%20Plate.STEP) / [Cover Plate.dxf (for laser cutting)](Case/Cover%20Plate.dxf) | 3mm thick     |
+| CNC / 3D printed wrist rest     | 1        | [Wrist Rest.STEP (for CNC)](Case/Wrist%20Rest.STEP) / [Wrist Rest.STL (for 3D printing)](Case/Wrist%20Rest.STL)       | Optional part |
+
+_*: If you'd like to replace 21mm round keycaps with 26mm ones, use files in [Alternative](/Case/Alternative) folder for cover plate._
 
 ![MCU Soldering](.doc/mcu_soldering.png)
 
