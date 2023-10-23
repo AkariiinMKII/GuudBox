@@ -60,7 +60,7 @@ Use files in [Misc](/Misc).
 
 ## Softwares
 
-Firmwares are modified and compiled in [AkariiinMKII/GP2040-CE](https://github.com/AkariiinMKII/GP2040-CE).
+Firmwares are modified and compiled in [AkariiinMKII/GuudBox-GP2040-CE](https://github.com/AkariiinMKII/GuudBox-GP2040-CE).
 
 ### Firmware Installation
 
