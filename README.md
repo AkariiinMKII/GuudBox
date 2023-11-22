@@ -44,13 +44,40 @@ _*: Thickness should be greater than 0.5mm._
 | Controller PCB                  | 1        | [Gerber_GuudBox.zip](PCB/Gerber_GuudBox.zip)                                                                          | 1.6mm thick   |
 | CNC / 3D printed bottom case    | 1        | [Bottom Case.STEP (for CNC)](Case/Bottom%20Case.STEP) / [Bottom Case.STL (for 3D printing)](Case/Bottom%20Case.STL)   |               |
 | CNC / laser cutted cover plate* | 1        | [Cover Plate.STEP (for CNC)](Case/Cover%20Plate.STEP) / [Cover Plate.dxf (for laser cutting)](Case/Cover%20Plate.dxf) | 3mm thick     |
-| CNC / 3D printed wrist rest     | 1        | [Wrist Rest.STEP (for CNC)](Case/Wrist%20Rest.STEP) / [Wrist Rest.STL (for 3D printing)](Case/Wrist%20Rest.STL)       | Optional part |
 
 _*: If you'd like to replace 21mm round keycaps with 26mm ones, use files in [Alternative](/Case/Alternative) folder for cover plate._
 
 ![MCU Soldering](.doc/mcu_soldering.png)
 
 _The RP2040-Zero MCU board should be soldered on __bottom side__ of the controller PCB with __front side up__. Make the position as accurate as possible to avoid conflicts with case._
+
+### Accessories
+
+#### Wrist Rest
+
+- For CNC
+
+| Parts                                 | Quantity | Related files / links                                                            |
+| ------------------------------------- | -------- | -------------------------------------------------------------------------------- |
+| CNC wrist rest                        | 1        | [Wrist Rest_CNC_low_profile.STEP](Accessories/Wrist%20Rest_CNC_low_profile.STEP) |
+| 20x3mm round head silicone foot pads* | 4        | [Taobao](https://item.taobao.com/item.htm?id=579128426494)                       |
+
+_*: Thickness should be greater than 1mm._
+
+- For 3D printing
+
+| Parts                                 | Quantity | Related files / links                                                                    | Remarks       |
+| ------------------------------------- | -------- | ---------------------------------------------------------------------------------------- | ------------- |
+| 3D printed wrist rest base part       | 1        | [Wrist Rest_3Dp_base_low_profile.STL](Accessories/Wrist%20Rest_3Dp_base_low_profile.STL) |               |
+| Laser cutted cover plate              | 1        | [Wrist Rest_3Dp_cover.dxf](Accessories/Wrist%20Rest_3Dp_cover.dxf)                       | 3mm thick     |
+| 20x3mm round head silicone foot pads* | 8        | [Taobao](https://item.taobao.com/item.htm?id=579128426494)                               |               |
+
+_*: Thickness should be greater than 1mm._
+
+Here's a sample of 3D printed wrist rest:
+
+![3D printed wrist rest](.doc/sample_4.jpg)
+![3D printed wrist rest](.doc/sample_5.jpg)
 
 ### Customizations
 
