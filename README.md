@@ -98,7 +98,7 @@ Firmwares are modified and compiled in [AkariiinMKII/GuudBox-GP2040-CE](https://
 
 ### Key Maps
 
-_Default key map in firmware, you can change it in [Web Configurator > Configuration > Pin Mapping](https://gp2040-ce.info/#/web-configurator?id=pin-mapping)._
+_Default key map in firmware, you can change it in [Web Configurator > Configuration > Pin Mapping](https://gp2040-ce.info/web-configurator/menu-pages/pin-mapping)._
 
 ![Key Map](.doc/key_map.png)
 
@@ -125,12 +125,12 @@ _Default key map in firmware, you can change it in [Web Configurator > Configura
 | 19*      | 0        | Fn         | Fn     | Fn      | Fn           | Fn           | Fn           | Fn     |
 | 20**     | 1        | Turbo      | Turbo  | Turbo   | Turbo        | Turbo        | Turbo        | Turbo  |
 
-_*: Disabled by default, enable the function in [Web Configurator > Settings > Hotkey Settings](https://gp2040-ce.info/#/web-configurator?id=hotkey-settings) before using._
+_*: Disabled by default, enable the function in [Web Configurator > Settings > Hotkey Settings](https://gp2040-ce.info/web-configurator/menu-pages/settings#hotkey-settings) before using._
 
-_**: Disabled by default, enable the function in [Web Configurator > Configuration > Add-Ons Configuration > Turbo](https://gp2040-ce.info/#/add-ons/turbo) before using._
+_**: Disabled by default, enable the function in [Web Configurator > Configuration > Add-Ons Configuration > Turbo](https://gp2040-ce.info/add-ons/turbo) before using._
 
 ### Configurations
 
 Hold `S2` (position 6 in default key map) when plugging your controller into a PC, and then visit <http://192.168.7.1> in a web browser to access the Web Configurator.
 
-It is strongly recommended to read the [documentation](https://gp2040-ce.info/#/web-configurator) before using the configurator.
+It is strongly recommended to read the [documentation](https://gp2040-ce.info/web-configurator) before using the configurator.
